@@ -14,17 +14,8 @@ So far, the project steps done:
 ## Implementing the data model (ERD) using PostGreSQL 
 - Create a new database named: brazilEcommerce
 - Open query tool -> run the sql commands in the file Tables.sql
-- Open PSQL tool -> run the following commands. Change the path to the path of the csv files.
+- Open PSQL tool -> run the commands in file loadDatafromCSV.txt. Change the path to the path of your csv files.
 
-
-\copy Customers FROM '/path/olist_customers_dataset.csv' DELIMITER ',' CSV HEADER;
-\copy Orders FROM '/path/olist_orders_dataset.csv' DELIMITER ',' CSV HEADER;
-\copy Order_Items FROM '/path/olist_order_items_dataset.csv' DELIMITER ',' CSV HEADER;
-\copy Order_Payments FROM '/path/olist_order_payments_dataset.csv' DELIMITER ',' CSV HEADER;
-\copy Order_Reviews FROM '/path/olist_order_reviews_dataset.csv' DELIMITER ',' CSV HEADER;
-\copy Products FROM '/path/olist_products_dataset.csv' DELIMITER ',' CSV HEADER;
-\copy Sellers FROM '/path/olist_sellers_dataset.csv' DELIMITER ',' CSV HEADER;
-\copy Product_Category_Name_Translation FROM '/path/product_category_name_translation.csv' DELIMITER ',' CSV HEADER;
 
 
 
