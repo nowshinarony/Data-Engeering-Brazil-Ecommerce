@@ -8,7 +8,7 @@ So far, the project steps done:
 
 
 ## ERD (data model) from the Original Dataset
-![ERD1](https://github.com/nna01/Data-Engeering-Brazil-Ecommerce/assets/28835420/3bda5137-3d7d-4706-8f70-2bddfbac94db)
+![ERD1](https://github.com/nna01/Data-Engeering-Brazil-Ecommerce/assets/28835420/7b1d0ce6-de03-4bab-9472-74a66493b589)
 
 
 ## Implementing the data model (ERD) using PostGreSQL 
