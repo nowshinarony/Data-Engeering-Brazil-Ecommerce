@@ -7,3 +7,7 @@ So far, the project steps done:
 - Developing a database and loading the data from CSV files. Tools: PostgreSQL
 
 
+## ERD from the Original Dataset
+![ERD1](https://github.com/nna01/Data-Engeering-Brazil-Ecommerce/assets/28835420/3bda5137-3d7d-4706-8f70-2bddfbac94db)
+
+
