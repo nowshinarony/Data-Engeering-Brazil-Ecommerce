@@ -15,8 +15,8 @@ So far, the project steps done:
 
 ## Implementing the data model (ERD) using PostGreSQL 
 - Create a new database named: brazilEcommerce
-- Open query tool -> run the sql commands in the file OriginalERDTables.sql
-- Open PSQL tool -> run the commands in file loadDatafromCSV.rtf. Change the path to the path of your csv files.
+- Open query tool -> run the sql commands in the file [OriginalERDTables.sql](OriginalERDTables.sql)
+- Open PSQL tool -> run the commands in file [loadDatafromCSV.rtf](loadDatafromCSV.rtf). Change the path to the path of your csv files.
 
 ## Deciding whether to transform ERD to Star or Snowflake Schema
 - First I tried to implement a Star Schema. However, the Star Schema was not enabling the inclusion of all data tables such as reviews and payments. I googled and chatgpt ed option. However, neither gave me feasible answers. No matter what I did, some data would go missing. 
