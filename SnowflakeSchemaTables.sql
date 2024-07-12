@@ -99,34 +99,6 @@ CREATE TABLE Fact_Order_Items (
     FOREIGN KEY (review_id) REFERENCES Dim_Reviews(review_id)
 );
 
-Select * from Fact_Order_Items;
-
-SELECT rolname, rolpassword FROM pg_authid;
-
-DROP TABLE IF EXISTS fact_order_items;
-DROP TABLE IF EXISTS dim_reviews;
-DROP TABLE IF EXISTS dim_payments;
-
-DELETE FROM fact_order_items;
-DELETE FROM dim_reviews;
-DELETE FROM dim_payments;
-DELETE FROM dim_orders;
-DELETE FROM dim_products;
-DELETE FROM dim_sellers;
-DELETE FROM dim_customers;
-DELETE FROM dim_order_dates;
-
-Select order_date_id, Count(order_id) FROM 
-	fact_order_items group by order_date_id;
-
-Select * FROM dim_reviews;
-Select * FROM dim_payments;
-Select * FROM dim_orders;
-Select * FROM dim_products;
-Select * FROM dim_sellers;
-Select * FROM dim_customers;
-Select * FROM dim_order_dates;
-
 
 
 
