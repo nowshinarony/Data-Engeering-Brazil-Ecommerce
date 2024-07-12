@@ -87,6 +87,3 @@ CREATE TABLE Product_Category_Name_Translation (
     product_category_name_english VARCHAR NOT NULL
 );
 
-DROP TABLE IF EXISTS Order_Items;
-
-DROP TABLE IF EXISTS Order_Reviews;
