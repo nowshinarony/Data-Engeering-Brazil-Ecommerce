@@ -18,7 +18,7 @@ So far, the project steps done:
 - Open query tool -> run the sql commands in the file [OriginalERDTables.sql](OriginalERDTables.sql)
 - Open PSQL tool -> run the commands in file [loadDatafromCSV.rtf](loadDatafromCSV.rtf). Change the path to the path of your csv files.
 
-## Deciding whether to transform ERD to Star or Snowflake Schema
+## Deciding whether to transform ERD to Star or Snowflake Schema 
 - First I tried to implement a Star Schema. However, the Star Schema was not enabling the inclusion of all data tables such as reviews and payments. I googled and chatgpt ed option. However, neither gave me feasible answers. No matter what I did, some data would go missing. 
 - Thus, after two days of brainstorming and trying to implement different version on PostgreSQL, I opted for a Snowflake schema which worked out well.
 
@@ -30,8 +30,8 @@ So far, the project steps done:
 
 ## Implementing the Snowflake Schema using PostGreSQL 
 - First I created a new database named BrazilEcommerceStar
-- Then, I created the tables from the SnowflakeSchemaTable.sql script
-- Afterwards, I implemented a python script (ETLforSnowflakeSchema.py) to load data from previous database (brazilEcommerce), transform some data, then load into the new database tables (BrazilEcommerceStar)
+- Then, I created the tables from the [SnowflakeSchemaTable.sql](SnowflakeSchemaTables.sql) script
+- Afterwards, I wrote a python script [ETLforSnowflakeSchema.py](ETLforSnowflakeSchema.py) to load data from previous database (brazilEcommerce), transform some data, then load into the new database tables (BrazilEcommerceStar)
 
 ### Running the python script
 To run the script I first created a virtual environment using my terminal and the following commands:
