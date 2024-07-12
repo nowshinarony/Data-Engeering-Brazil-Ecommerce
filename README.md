@@ -15,7 +15,7 @@ So far, the project steps done:
 
 ## Implementing the data model (ERD) using PostGreSQL 
 - Create a new database named: brazilEcommerce
-- Open query tool -> run the sql commands in the file Tables.sql
+- Open query tool -> run the sql commands in the file OriginalERDTables.sql
 - Open PSQL tool -> run the commands in file loadDatafromCSV.rtf. Change the path to the path of your csv files.
 
 ## Deciding whether to transform ERD to Star or Snowflake Schema
@@ -34,13 +34,15 @@ So far, the project steps done:
 - Afterwards, I implemented a python script (ETLforSnowflakeSchema.py) to load data from previous database (brazilEcommerce), transform some data, then load into the new database tables (BrazilEcommerceStar)
 
 ### Running the python script
-- To run the script I first created a virtual environment using my terminal and the following commands:
-        - cd /path/to/your/project
-        - virtualenv venv
-        - source venv/bin/activate
-        - pip install pandas sqlalchemy psycopg2
-         (these are required to import the python script)
+To run the script I first created a virtual environment using my terminal and the following commands:
+  
+- cd /path/to/your/project
+- virtualenv venv
+- source venv/bin/activate
+- pip install pandas sqlalchemy psycopg2
+  (these are required to import the python script)
 
-- Then I ran the script in the virtual environment.
+
+Then I ran the script in the virtual environment.
    
 
