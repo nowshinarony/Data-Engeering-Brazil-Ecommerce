@@ -1,5 +1,5 @@
 # Data-Engeering-Brazil-Ecommerce
-This repository presents my ongoing project on creating an end-to-end data pipeline using the [Brazil Ecommerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). This is project showcases my hands-on experience in different data-specific skills. 
+This repository presents my project on creating an end-to-end data pipeline using the [Brazil Ecommerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). This is project showcases my hands-on experience in different data-specific skills. 
 
 My computer is: Macbook Air M2 OS: 14.5
 
